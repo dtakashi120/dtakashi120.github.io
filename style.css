@@ -1,0 +1,210 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header{
+    background-color: black;
+    height: 65px;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    opacity: 0.7;
+}
+.header-left{
+  float: left;
+  color: white;
+}
+
+.header-right{
+    float: right;
+    transition: all 1s;
+}
+
+.header-right a:hover{
+  background-color:rgba(2, 81, 252, 0.5);
+}
+
+
+.header-right a{
+  line-height: 65px;
+  display: block;
+  padding: 0 20px;
+  float: left;
+  color: white;
+  border: 1px solid white;
+}
+
+
+.top-wrapper{
+  background-image: url(S__139739142.jpg);
+  background-size: cover;
+  height: 800px;
+  
+}
+
+.top-wrapper h1{
+  padding: 85px;
+  color: white;
+  opacity: 0.8;
+}
+
+.intro-wrapper{
+  height: 700px;
+  margin-top: -65px;
+  padding-top:65px ;
+}
+
+
+.intro-heading{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.intro-img{
+  float: left;
+  margin: 0 200px 0 200px;
+  text-align: center;
+}
+
+.intro-img img{
+  height: 400px;
+}
+
+.intro-img p{
+  margin-top:20px;
+}
+
+.intro-txt{
+  float: left;
+  margin-top: 50px;
+}
+
+.intro-txt p{
+  margin-bottom:20px;
+}
+
+.background-wrapper{
+  height: 600px;
+  background-color:pink;
+  margin-top: -65px;
+  padding-top:65px ;
+}
+
+
+
+.background-wrapper h2{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.background-txt{
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.background-txt p{
+  margin-bottom: 20px;
+}
+
+.insta-wrapper{
+  background-color:rgb(255, 254, 190);
+  height: 1100px;
+  margin-top: -65px;
+  padding-top:65px ; 
+}
+
+.insta-wrapper h2{
+  text-align: center;
+  padding-top:20px ;
+}
+
+.insta-wrapper p{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.timer-wrapper{
+  text-align: center;
+  padding-bottom: 20px;
+  background-color:#66bdf0;
+  margin-top: -65px;
+  padding-top:65px ;
+  height: 200px;
+}
+
+.timer-wrapper h2{
+  padding: 20px;
+}
+
+.form-wrapper{
+  background-color: rgb(255, 181, 146);
+  height: 700px;
+  margin-top: -65px;
+  padding-top:65px ;
+}
+
+.form-content{
+  width: 400px;
+  margin: 0 auto;
+}
+
+
+.form-wrapper h2{
+  padding-top:20px ;
+  text-align: center;
+}
+
+
+
+input,textarea{
+  padding:20px 20px;
+  margin-bottom:30px;
+  border:1px solid #dee7ec;
+  width:400px;
+}
+
+.submit{
+  font-size:18px;
+  background-color:#dee7ec;
+  color:#66bdf0;
+  cursor: pointer;
+}
+
+.insta{
+  text-align: center;
+}
+
+
+.insta a{
+  display: inline-block;
+  background-color: rgb(207,46,146);
+  color: white;
+  padding: 10px 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.insta-in{
+  width: 600px;
+  margin: 0 auto;
+}
+
+
+
